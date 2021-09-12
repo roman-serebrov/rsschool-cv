@@ -1,5 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #c9d1d9;
+    font-family: "Roboto";
+    font-size: 18px;
+
+}
 .container {
     display: flex;
-    height: 100vh;
     width: 100%;
+    background-color: #010409;
+    height: 100%;
+}
+
+aside {
+    background:#0d1117;
+    border-right: 1px solid #484f58;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: start;
+    padding: 10px 5px;
+}
+aside .avatar {
+    width: 100%;
+    height: 30%;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+}
+aside .avatar .avatar-img {
+    width: 80%;
+    margin: 0 auto;
+    background-image: url("/img/IMG_3265.JPG");
+    height: 100%;
+    background-position: 70% 5%;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+.br-bottom {
+    width: 80%;
+    border-bottom: 1px solid #484f58;
+}
+
+
+li {
+    list-style: none;
+}
+
+aside li a {
+    text-decoration: none;
+    color: #58a6ff;
+    line-height: 10px;
+}
+aside li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.about-me {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+h2 {
+    font-weight: 300;
+}
+.blocks-info {
+    border:1px solid #484f58;
+    width: 80%;
+    border-radius: 8px;
+    background: #0d1117;
+    padding: 10px 10px;
+    margin: 10px 0;
+}
+.name {
+    display: flex;
+}
+.name h2{
+    font-size: 32px;
+}
+.name .last-name {
+    margin-left: 10px;
+}
+/*#238636*/
+.text-description li {
+    list-style: disc;
+}
+.profile-codewars li a {
+    text-decoration: none;
+    background-color: #238636;
+    color: #c9d1d9;
+    padding: 8px 20px;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.profile-codewars  li {
+    font-size: 22px;
+}
+
+.profile-codewars a:hover {
+    background-color: #39d353;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #30363d;
 }
